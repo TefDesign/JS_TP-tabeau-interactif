@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Projet : Tableau Interactif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Tableau Interactif</h1>
+    <div class="controls">
+        <input type="text" id="search" placeholder="Rechercher un utilisateur...">
+        <button id="sort-name">Trier par Nom</button>
+        <button id="sort-email">Trier par Email</button>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Email</th>
+            <th>Ville</th>
+        </tr>
+        </thead>
+        <tbody id="user-table">
+        <!-- Les lignes de tableau seront générées ici -->
+        </tbody>
+    </table>
+</div>
+<script src="index.js" type="module"></script>
+</body>
+</html>
